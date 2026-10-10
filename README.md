@@ -1,31 +1,34 @@
-# Neon District
+# Ragdoll Rumble
 
-An original browser-based open-world driving/action game built for the `GTA` repository. It takes inspiration from broad open-world game mechanics but does not copy GTA V characters, map, missions, dialogue, art, music, branding, or other protected content.
+A fast browser-based physics brawler built for GitHub Pages.
 
-## Play
-This repository is configured for GitHub Pages. Open the repository's Pages URL after deployment completes.
+## Modes
+- Solo vs CPU
+- Local 2 Player
+
+## Rules
+Each fighter has 3 stocks. Hits increase damage, which increases knockback. Knock your opponent off the arena to take a stock. Last fighter standing wins.
 
 ## Controls
-- WASD / Arrow keys: move or drive
-- E: enter / exit vehicle
-- Shift: sprint / vehicle boost
-- Space: handbrake
-- F: interact with job markers
-- M: city map
-- P / Esc: pause
+### Player 1
+- A / D: move
+- W: jump / double jump
+- F: punch
+- G: kick
+- S: guard
 
-## Main systems
-- Procedural open city
-- Walking and sprinting
-- Vehicle entry/exit
-- Momentum, grip, steering, handbrake and collision physics
-- Traffic and pedestrians
-- 1–5 level pursuit system
-- Police vehicles
-- Missions and checkpoints
-- Health, armor, cash and vehicle integrity
-- Day/night lighting and particles
-- Autosave with `localStorage`
-- Keyboard/mouse and touch controls
+### Player 2
+- Left / Right arrows: move
+- Up arrow: jump / double jump
+- K: punch
+- L: kick
+- Down arrow: guard
 
-All runtime assets and effects are generated in the browser; the game has no external runtime dependency.
+Mobile touch controls are included for Solo mode.
+
+## Arenas
+- Neon Rooftop
+- Sunset Foundry
+- Ice Station
+
+Open `index.html` directly or publish the repository with GitHub Pages.
